@@ -1,0 +1,155 @@
+<div class="mobile">
+   <div class="slider-frame">
+      <ul>
+          <li><img src="./assets/this.png" alt="" /></li>
+          <li><img src="./assets/kallg.png" alt=""/></li>
+          <!-- <li><img src="./assets/slider3.png" alt=""/></li>
+          <li><img src="./assets/slider4.png" alt=""/></li> -->
+      </ul>
+  </div>
+  <div class="tittle"><h1>LOCATIONS</h1>
+   <img src="./assets/LINECOFF.svg" id="cofi" width="30%"/>
+</div>
+   <div class="loc">
+      <div class="tloc">
+       <div class="tloctext">
+          <h1>COORPAROO SQUARE</h1>
+          <p>300 old Cleveland road, Coorparoo, 4151.
+            <br>
+            Formerly the historic Myer building on the corner of Old Cleveland Road and Cavendish Road, Coorparoo Square will be Brisbane’s newest transport orientated development. 
+              <br>
+              Located just 4.5km from the Brisbane CBD
+              Coorparoo Square
+              Crn Old Cleveland Rd & Cavendish Rd Coorparoo QLD  4151</p>
+              <!-- <br>
+              <br>
+              <br>
+              <br>
+              <input type="submit" value="Get location"/> -->
+       </div>
+      </div>
+      <div class="floc">
+          <img src="./assets/coorparo.png" width="100%"/>
+      </div>
+      </div>
+      <div class="loc3">
+         <div class="tloc">
+          <div class="tloctext">
+             <h1>ALLGAS</h1>
+             <p>Unit 3/9 Allgas Street Slacks Creek, Queensland, Australia.
+                 <br>
+                </p>
+                 <!-- <br>
+                 <br>
+                 <br>
+                 <br>
+                 <input type="submit" value="Get location"/> -->
+          </div>
+         </div>
+         <div class="floc">
+            <img src="./assets/allgg.png" width="100%"/>
+        </div>
+         </div>
+      <!-- <div class="loc2">
+         <div class="floc">
+            <img src="./assets/allgg.png" width="100%"/>
+        </div>
+         <div class="tloc">
+          <div class="tloctext">
+             <h1>ALLGAS</h1>
+             <p>Unit 3/9 Allgas Street Slacks Creek, Queensland, Australia.
+                 <br>
+                </p>
+
+          </div>
+         </div>
+       
+         </div> -->
+
+   <div class="contact">
+      <!-- <div class="details">
+      <h1>DETAILS</h1>
+      <p>Unit 3/9 Allgas Street Slacks Creek, Queensland, Australia
+         <br>
+         info@kivahan.com.au</p>
+      </div> -->
+      <!-- <div class="map">
+       <img src="./assets/mapita.png" width="100%"/>
+      </div> -->
+      </div>
+     <div class="contai">
+         <div class="tittle"><h1>GET IN TOUCH</h1></div>
+         <img src="./assets/LINECOFF.svg" id="cofi" width="30%"/>
+         <form [formGroup]="datos">
+          <div class="shop-details">
+          <div class="input-box">
+             <span class="details">Full Name</span>
+             <input type="text" placeholder="Enter your name..." formControlName="name"/>             
+          </div>
+          <div class="input-box">
+             <span class="details">Email</span>
+             <input type="email" placeholder="Enter your email..." formControlName="email"/>             
+          </div>
+          <div class="input-box">
+             <span class="details">Cell Phone Number</span>
+             <input type="text" placeholder="Enter your number..." formControlName="number"/>             
+          </div>
+           <div class="text-box">
+             <span class="details">Describe your request:</span>
+             <textarea type="text" placeholder="Message..." formControlName="mes"></textarea>             
+           </div>
+          </div>
+          <div class="but">
+             <input type="submit" (click)="enviocorreo()" value="SEND"/> 
+          </div>
+         </form>
+         </div>
+</div>
+
+<!-- <div class="hidden-mobile">
+    <div class="contact">
+     <div class="details">
+     <h1>DETAILS</h1>
+     <p>Unit 3/9 Allgas Street Slacks Creek, Queensland, Australia
+        <br>
+        info@kivahan.com.au</p>
+     </div>
+     <div class="map">
+      <img src="./assets/maps.png" width="100%"/>
+     </div>
+    </div>
+    <div class="contai">
+        <div class="tittle"><h1>GET IN TOUCH</h1></div>
+        <img src="./assets/LINECOFF.svg" width="25%"/>
+        <form [formGroup]="datos">
+         <div class="shop-details">
+         <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name..." formControlName="name"/>             
+         </div>
+         <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter your email..." formControlName="email"/>             
+         </div>
+         <div class="input-box">
+            <span class="details">Cell Phone Number</span>
+            <input type="text" placeholder="Enter your number..." formControlName="number"/>             
+         </div>
+          <div class="text-box">
+            <span class="details">Describe your request:</span>
+            <textarea type="text" placeholder="Message..." formControlName="mes"></textarea>             
+          </div>
+         </div>
+         <div class="but">
+            <input type="submit" (click)="enviocorreo()" value="SEND"/> 
+         </div>
+        </form>
+        </div>
+        <div class="five">
+            <img src="./assets/CARD2.png" width="100%"/>
+            <div class="news">
+                <button>Subscribe</button>
+                <input type="text" placeholder="Enter your email and subscribe to our newsletter"/>
+            </div>
+        </div>
+</div> -->
