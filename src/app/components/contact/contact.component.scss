@@ -8,8 +8,8 @@ margin: 0;
 main
 {
   // padding: 15%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
   .tittle
   {
@@ -170,6 +170,98 @@ main
       // ¡height: 479px;
       // border: 1px solid yellow;
   }
+
+}
+.ot
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  max-height:1500px;
+  .o{
+    // border: 1px solid blue;
+    width: 50%;
+    // height: 501px;
+    background: black;
+    justify-content: center;
+
+    h1{
+        font-family: 'Zilla Slab', serif;
+        font-weight: 900;
+        font-size: 2.5vw;
+        color: #CFAD31;
+         }
+         p{
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: white;
+            padding: 40px;
+            text-align: justify;
+            font-size: 1.3vw;
+            line-height: 1.5em;
+         }
+}
+.img
+{
+  width: 50%;
+  // max-height: 1800px;
+  img
+  {
+   max-width: 100%;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  }
+}
+
+}
+.ot2
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  max-height:1500px;
+  .o{
+    // border: 1px solid blue;
+    width: 50%;
+    // height: 501px;
+    background: black;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+        font-family: 'Zilla Slab', serif;
+        font-weight: 900;
+        font-size: 2.5vw;
+        color: #CFAD31;
+         }
+         p{
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: white;
+            padding: 40px;
+            // text-align: justify;
+            font-size: 1.3vw;
+            line-height: 1.5em;
+            justify-content: center;
+         }
+}
+.img
+{
+  width: 50%;
+  // max-height: 1800px;
+  img
+  {
+   max-width: 100%;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  }
+}
 
 }
   .contact{
@@ -345,7 +437,7 @@ main
       border: none;
       background: #CFAD31;
       max-width: 1450px;
-      font-size: 1.2vw;
+      font-size: 1.8vw;
   }
 
   form .but input:hover{
