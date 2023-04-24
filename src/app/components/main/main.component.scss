@@ -9,11 +9,19 @@
 }
 }
 
-    @media screen and (max-width:690px)
-    {
+@media screen and (max-width:690px)
+{
       display: flex;
       flex-direction: column;
       text-align: center;
+      main
+{
+  //  padding: 15%;
+  padding-left: 0%;
+  padding-right: 0%;
+   margin: 0;
+
+}
     }
     @media screen and (min-width:691px) {
       .second{
@@ -59,7 +67,17 @@
     @media screen and (max-width:690px) {
       .second
       {
-         margin-bottom: -5%;
+        //  margin-bottom: -50%;
+        //  border: 1px solid yellow;
+        #cofi
+        {
+         max-width: 100%;
+         top: 0;
+         left: 0;
+         width: 60%;
+         height: 60%;
+         object-fit: cover;
+        }
          .img
          {
             margin-bottom: -5%;
@@ -67,27 +85,21 @@
          h1{
             font-family: 'Zilla Slab', serif;
             font-weight: 900;
-            font-size: 24px;
+            font-size: 7vw;
              }
 
              p{
                 font-family: 'Playfair Display', serif;
-                font-weight: 500;
-                font-size: 18px;
+                font-weight: 600;
+                font-size: 4vw;
                 padding: 20px;
                 text-align: justify;
+                line-height: 1.5em;
                 // justify-content: center;
              }
 
-         #cofi{
-            width: 300px;
-         }
+
       }
-
-
-
-
-
    }
 
    @media screen and (min-width:691px) {
@@ -175,26 +187,39 @@ main
          h1{
             font-family: 'Zilla Slab', serif;
             font-weight: 900;
-            font-size: 24px;
+            font-size: 7vw;
             color: #CFAD31;
-            text-align: left;
-            padding: 15px;
+            text-align: center;
             margin-bottom: -5%;
 
              }
 
              p{
                 font-family: 'Playfair Display', serif;
-                font-weight: 500;
-                font-size: 15px;
+                font-weight: 600;
+                font-size: 4vw;
                 color: white;
-                padding: 15px;
+                padding: 20px;
                 text-align: justify;
+                line-height: 1.5em;
              }
 
              .ter-our{
                 // border: 1px solid red;
                 background: black;
+             }
+
+             .immm
+             {
+               img
+               {
+                max-width: 100%;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+               }
              }
 
       }
@@ -846,7 +871,7 @@ main
     // border: 3px solid yellow;
     width: 100%;
     ul{
-        min-height: 400px;
+        min-height: 100px;
     }
     height: 50%;
 
