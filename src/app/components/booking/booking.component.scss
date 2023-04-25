@@ -4,20 +4,136 @@
 
     text-align: center;
    @media screen and (max-width:690px) {
-      .tittle
-      {
-        h1
+    .contai{
+        width: 100%;
+        background: white;
+        // border:  1px solid yellow;
+    
+    
+        .tittle
         {
-            font-family: 'Zilla Slab', serif;
-            font-size: 24px;
-            font-weight: 900;
+          h1{
+          font-size: 7vw;
         }
-      }
 
-      #cofi
-      {
-        width: 300px;
-      }
+        }
+        #cofi
+        {
+         max-width: 100%;
+         top: 0;
+         left: 0;
+         width: 60%;
+         height: 60%;
+         object-fit: cover;
+        }
+    }
+    .contai .tittle{
+        font-size: 12px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 700px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contai form .shop-details{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    form .shop-details .input-box{
+        width: calc(100% / 2 - 20px);
+        padding: 15px 10px;
+        text-align: left;
+        max-width: 700px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 800;
+        font-size: 3.5vw;
+        margin: 5px 0 3px 0;
+    }
+    form .shop-details .text-box{
+        width: calc(100% / 2 - 20px);
+        padding: 15px 10px;
+        text-align: left;
+        max-width: 700px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 800;
+        font-size: 3.5vw;
+        margin: 5px 0 3px 0;
+    }
+    
+    form .shop-details .select-box{
+        width: calc(100% / 2 - 20px);
+        padding: 15px 10px;
+        text-align: left;
+        max-width: 700px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 800;
+        font-size: 3.5vw;
+        margin: 5px 0 3px 0;
+    }
+    
+    .shop-details .select-box select{
+        height: 35px;
+        width: 100%;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 600;
+        font-size: 2.8vw;
+        border: 1px solid #ccc;
+    
+    }
+    .shop-details .text-box textarea{
+        height: 105px;
+        width: 90%;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 600;
+        font-size: 2.8vw;
+        padding-left: 10px;
+        border: 1px solid #ccc;
+    
+    }
+    
+    .shop-details .input-box input{
+        height: 30px;
+        width: 90%;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 300;
+        font-size: 2.8vw;
+        display: block;
+        border: 1px solid #ccc;
+        outline: none;
+        padding-left: 15px;
+        border-bottom-width: 3px;
+    
+    }
+    
+    .shop-details .input-box input:focus {
+        border-color: #CFAD31;
+    }
+    
+    form .but{
+      min-height: 40px;
+        height: 50px;
+        margin: 45px 0;
+    }
+    
+    form .but input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        color: white;
+        border: none;
+        background: #CFAD31;
+        max-width: 1450px;
+        font-size: 4vw;
+    }
+    
+    form .but input:hover{
+        background: #b8992b;
+    }
    }
     .contai{
 

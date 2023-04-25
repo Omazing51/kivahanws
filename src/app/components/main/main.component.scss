@@ -254,15 +254,22 @@ main
                 flex-direction: column;
                 justify-content: center;
                //  margin-bottom: -50px;
-
-                img
+        
+                .imblack
                 {
-                 min-width: 100%;
-                 top: 0;
-                 left: 0;
-                 width: 100%;
-                 height: 100%;
-                 object-fit: cover;
+                  img
+                  {
+                   min-width: 100%;
+                   top: 0;
+                   left: 0;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                  }
+                }
+                .imblack2
+                {
+                  display: none;
                 }
                 .info{
                     display: flex;
@@ -462,37 +469,64 @@ main
          h1{
             font-family: 'Zilla Slab', serif;
             font-weight: 900;
-            font-size: 24px;
+            font-size: 7vw;
             margin-bottom: 5%;
              }
 
              p{
                 font-family: 'Playfair Display', serif;
                 font-weight: 700;
-                font-size: 18px;
+                font-size: 4vw;
                 margin-bottom: 5%;
              }
-
+          .air
+          {
+            #cofi
+            {
+               max-width: 100%;
+               top: 0;
+               left: 0;
+               width: 60%;
+               height: 60%;
+               object-fit: cover;
+            }
+          }
              .all{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: center;
                 margin-bottom: -30px;
-                img
+                .imblack
                 {
                   display: none;
                 }
+                .imblack2
+                {
+                  position: relative;
+                  img
+                  {
+                    min-width: 100%;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+                }
+             
                 .info{
                     display: flex;
                     flex-flow: column nowrap;
                     justify-content: center;
                     align-items: center;
-                    padding: 15px;
-
+                    padding-left:3%;
+                    padding-right: 5%;
+                    position: absolute;
+                    text-align: center;
                     .o{
                         // border: 1px solid blue;
-                        width: 92.5%;
-                        height: 35%;
+                        width: 100%;
+                        height: 30%;
                         background: black;
                         margin-bottom: 5%;
                         justify-content: center;
@@ -501,78 +535,80 @@ main
                         h1{
                             font-family: 'Zilla Slab', serif;
                             font-weight: 900;
-                            font-size: 24px;
+                            font-size: 5vw;
                             color: white;
                              }
 
                              h2{
                                 font-family: 'Zilla Slab', serif;
                                 font-weight: 900;
-                                font-size: 20px;
+                                font-size: 5vw;
                                 color:#CFAD31;
                              }
 
                              p{
                                 font-family: 'Playfair Display', serif;
                                 font-weight: 500;
-                                font-size: 15px;
+                                font-size: 3vw;
                                 color: white;
+                                padding: 20px;
                                 text-align: justify;
                              }
                     }
 
                     .t{
                         // border: 1px solid blue;
-                        width: 92.5%;
-                        height: 35%;
+                        width: 100%;
+                        height: 30%;
                         background: black;
                         margin-bottom: 5%;
                         h1{
                             font-family: 'Zilla Slab', serif;
                             font-weight: 900;
-                            font-size: 24px;
+                            font-size: 5vw;
                             color: white;
                              }
 
                              h2{
                                 font-family: 'Zilla Slab', serif;
                                 font-weight: 900;
-                                font-size: 20px;
+                                font-size: 5vw;
                                 color:#CFAD31;
                              }
 
                              p{
                                 font-family: 'Playfair Display', serif;
                                 font-weight: 700;
-                                font-size: 15px;
+                                font-size: 3vw;
                                 color: white;
+                                padding: 20px;
                                 text-align: justify;
                              }
                     }
                     .tr{
                         // border: 1px solid blue;
-                        width: 92.5%;
-                        height: 35%;
+                        width: 100%;
+                        height: 30%;
                         background: black;
                         margin-bottom: 5%;
                         h1{
                             font-family: 'Zilla Slab', serif;
                             font-weight: 900;
-                            font-size: 24px;
+                            font-size: 5vw;
                             color: white;
                              }
 
                              h2{
                                 font-family: 'Zilla Slab', serif;
                                 font-weight: 900;
-                                font-size: 20px;
+                                font-size: 5vw;
                                 color:#CFAD31;
                              }
 
                              p{
                                 font-family: 'Playfair Display', serif;
                                 font-weight: 700;
-                                font-size: 15px;
+                                font-size: 3vw;
                                 color: white;
                                 padding: 20px;
                                 text-align: justify;
