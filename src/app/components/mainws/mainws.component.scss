@@ -26,7 +26,7 @@
             h1{
                 font-family: 'Zilla Slab', serif;
                 font-weight: 900;
-                font-size: 2.5vw;
+                font-size: 2vw;
                 // margin-bottom: -40px;
 
             }
@@ -74,7 +74,7 @@
          object-fit: cover;
         }
         }
-           
+
 
             p{
                 font-family: 'Playfair Display', serif;
@@ -165,7 +165,7 @@
            h1{
                font-family: 'Zilla Slab', serif;
                font-weight: 900;
-               font-size: 2.5vw;
+               font-size: 2vw;
                color: #CFAD31;
                 }
                 p{
@@ -201,7 +201,7 @@
     @media screen and (max-width:1024px) {
         .both
         {
-  
+
           .organic
           {
              .slider-frame
@@ -222,7 +222,7 @@
              // height: 501px;
              background: black;
              justify-content: center;
-  
+
              h1{
                  font-family: 'Zilla Slab', serif;
                  font-weight: 900;
@@ -253,9 +253,9 @@
             object-fit: cover;
            }
          }
-  
+
          }
-  
+
         }
     }
 
@@ -402,7 +402,7 @@
         h1{
             font-family: 'Zilla Slab', serif;
             font-weight: 900;
-            font-size: 2.5vw;
+            font-size: 2vw;
             color: #CFAD31;
         }
        p{
@@ -480,7 +480,7 @@
         left: 0;
         width: 100%;
         max-height: 1000px;
-       
+
        }
     }
 
@@ -529,7 +529,7 @@
         h1{
             font-family: 'Zilla Slab', serif;
             font-weight: 900;
-            font-size: 2.5vw;
+            font-size: 2vw;
             color: #CFAD31;
         }
        p{
@@ -615,7 +615,7 @@
             margin-bottom: -50px;
             text-align: justify;
            }
-    
+
             .boton{
                 display: flex;
                 flex-wrap: nowrap;
@@ -644,29 +644,29 @@
                     text-align: left;
                     align-items: left;
                     justify-content: left;
-    
+
                    }
-    
+
                     h3{
                         // max-height: 5px;
                         background: black;
                         color: #CFAD31;
                         font-family: 'Zilla Slab', serif;
                         font-weight: 900;
-                        font-size: 2.5vw;
+                        font-size: 2vw;
                         border: none;
                         line-height: 1em;
                         // padding-bottom: 20px;
-    
+
                     }
-    
+
                     input:hover{
                     //  background: #cfad3193;
                     }
                 }
             }
         }
-    
+
         .vi{
             position: relative;
             width: 100%;
@@ -674,17 +674,17 @@
             // border:  1px solid blue;
             margin-bottom: 15px;
             height: 100%;
-    
+
            video{
             position: relative;
             top: 0;
             left: 0;
             width: 100%;
             max-height: 1000px;
-           
+
            }
         }
-    
+
     }
 
 }
@@ -708,7 +708,7 @@
            display: none;
         }
 
-       
+
     }
 
     .text{
@@ -800,7 +800,7 @@
         // color: white;
         font-family: 'Zilla Slab', serif;
         font-weight: 900;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     p{
@@ -845,9 +845,9 @@
             font-weight: 900;
             font-size: 7vw;
         }
-    
+
         p{
-    
+
             font-family: 'Playfair Display', serif;
             font-weight: 700;
             font-size: 4vw;
@@ -857,7 +857,7 @@
             line-height: 1.5em;
         //    color: white;
         }
-    
+
        }
 }
 
@@ -872,7 +872,7 @@
     .tittle
     {
       h1{
-      font-size: 2.5vw;
+      font-size: 2vw;
     }
     #cofi
     {
@@ -1013,8 +1013,8 @@ form .but input:hover{
         width: 100%;
         background: white;
         // border:  1px solid yellow;
-    
-    
+
+
         .tittle
         {
           h1{
@@ -1032,7 +1032,7 @@ form .but input:hover{
          object-fit: cover;
         }
     }
-    
+
     .contai .tittle{
         font-size: 12px;
         font-family: 'Zilla Slab', serif;
@@ -1041,9 +1041,9 @@ form .but input:hover{
         align-items: center;
         justify-content: center;
         text-align: center;
-    
+
     }
-    
+
     .contai form .shop-details{
         display: flex;
         flex-wrap: wrap;
@@ -1051,7 +1051,7 @@ form .but input:hover{
         justify-content: center;
         text-align: center;
     }
-    
+
     form .shop-details .input-box{
         width: calc(100% / 2 - 20px);
         padding: 15px 10px;
@@ -1072,7 +1072,7 @@ form .but input:hover{
         font-size: 3.5vw;
         margin: 5px 0 3px 0;
     }
-    
+
     form .shop-details .select-box{
         width: calc(100% / 2 - 20px);
         padding: 15px 10px;
@@ -1083,7 +1083,7 @@ form .but input:hover{
         font-size: 3.5vw;
         margin: 5px 0 3px 0;
     }
-    
+
     .shop-details .select-box select{
         height: 35px;
         width: 100%;
@@ -1091,7 +1091,7 @@ form .but input:hover{
         font-weight: 600;
         font-size: 2.8vw;
         border: 1px solid #ccc;
-    
+
     }
     .shop-details .text-box textarea{
         height: 105px;
@@ -1101,9 +1101,9 @@ form .but input:hover{
         font-size: 2.8vw;
         padding-left: 10px;
         border: 1px solid #ccc;
-    
+
     }
-    
+
     .shop-details .input-box input{
         height: 30px;
         width: 90%;
@@ -1115,19 +1115,19 @@ form .but input:hover{
         outline: none;
         padding-left: 15px;
         border-bottom-width: 3px;
-    
+
     }
-    
+
     .shop-details .input-box input:focus {
         border-color: #CFAD31;
     }
-    
+
     form .but{
       min-height: 40px;
         height: 50px;
         margin: 45px 0;
     }
-    
+
     form .but input{
         height: 100%;
         width: 100%;
@@ -1138,11 +1138,11 @@ form .but input:hover{
         max-width: 1450px;
         font-size: 4vw;
     }
-    
+
     form .but input:hover{
         background: #b8992b;
     }
-    
+
 }
 // .contai{
 

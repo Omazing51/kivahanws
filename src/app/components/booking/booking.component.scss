@@ -8,8 +8,8 @@
         width: 100%;
         background: white;
         // border:  1px solid yellow;
-    
-    
+
+
         .tittle
         {
           h1{
@@ -43,7 +43,7 @@
         justify-content: center;
         text-align: center;
     }
-    
+
     form .shop-details .input-box{
         width: calc(100% / 2 - 20px);
         padding: 15px 10px;
@@ -64,7 +64,7 @@
         font-size: 3.5vw;
         margin: 5px 0 3px 0;
     }
-    
+
     form .shop-details .select-box{
         width: calc(100% / 2 - 20px);
         padding: 15px 10px;
@@ -75,7 +75,7 @@
         font-size: 3.5vw;
         margin: 5px 0 3px 0;
     }
-    
+
     .shop-details .select-box select{
         height: 35px;
         width: 100%;
@@ -83,7 +83,7 @@
         font-weight: 600;
         font-size: 2.8vw;
         border: 1px solid #ccc;
-    
+
     }
     .shop-details .text-box textarea{
         height: 105px;
@@ -93,9 +93,9 @@
         font-size: 2.8vw;
         padding-left: 10px;
         border: 1px solid #ccc;
-    
+
     }
-    
+
     .shop-details .input-box input{
         height: 30px;
         width: 90%;
@@ -107,19 +107,19 @@
         outline: none;
         padding-left: 15px;
         border-bottom-width: 3px;
-    
+
     }
-    
+
     .shop-details .input-box input:focus {
         border-color: #CFAD31;
     }
-    
+
     form .but{
       min-height: 40px;
         height: 50px;
         margin: 45px 0;
     }
-    
+
     form .but input{
         height: 100%;
         width: 100%;
@@ -130,7 +130,7 @@
         max-width: 1450px;
         font-size: 4vw;
     }
-    
+
     form .but input:hover{
         background: #b8992b;
     }
@@ -147,7 +147,7 @@
 
         width: 100%;
         background: white;
-        // border:  1px solid yellow;
+        border:  1px solid yellow;
 
 
         .tittle

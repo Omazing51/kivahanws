@@ -6,13 +6,12 @@
     padding-right: 5%;
   }
 @media screen and (min-width:1025px) {
- 
+
   main{
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0;
-
 
 }
 }
@@ -36,14 +35,14 @@ main
         //    border: 1px solid green;
         width: 100%;
         margin: 0 auto;
-       
+
            .img
            {
             margin-bottom: -50px;
             h1{
               font-family: 'Zilla Slab', serif;
               font-weight: 900;
-              font-size: 2.5vw;
+              font-size: 2vw;
               box-sizing: border-box;
                }
                #cofi
@@ -111,14 +110,14 @@ main
    }
 
    @media screen and (min-width:1025px) {
-
     display: flex;
     flex-direction: column;
     margin: auto;
     .slider-frame
 {
   // width: 100%;
-  // margin-bottom: -110%;
+  // margin-bottom: -10%;
+  // border: 1px solid red;
 }
 main
 {
@@ -126,6 +125,7 @@ main
   padding-left: 0%;
   padding-right: 0%;
    margin: 0;
+  //  margin-bottom: -220%;
 
 }
 
@@ -146,7 +146,7 @@ main
         h1{
           font-family: 'Zilla Slab', serif;
           font-weight: 900;
-          font-size: 2.5vw;
+          font-size: 2vw;
           color: #CFAD31;
           text-align: center;
           // padding-left: 200px;
@@ -648,7 +648,7 @@ main
 
                 }
                 }
-             
+
 
              }
              #cofi
@@ -936,20 +936,38 @@ main
 // }
 
 .slider-frame{
-    // border: 3px solid yellow;
+    // border: 1px solid yellow;
     width: 100%;
+    // max-height: 1000px;
+    margin-top: 0;
     ul{
-        min-height: 100px;
+      margin-top: 0;
+        // min-height: 100px;
+        height: 100vh;
     }
-    height: 50%;
+    // height: 50%;
 
-    @media screen and (min-width:700px) {
-        height: 50%;
+    @media screen and (min-width:1024px) {
+        // height: 50%;
 
     }
     overflow: hidden;
 
 
+}
+
+.slider-frame input
+{
+ display: none;
+}
+
+.manual-btn
+{
+  border: 1px solid yellow;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .slider-frame ul{
@@ -979,11 +997,7 @@ main
     50%{margin-left: -200%;}
     70%{margin-left: -200%;}
 
-    75%{
-        margin-left: -300%;
-    }
-    95%{
-        margin-left: -300%;
-    }
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
 }
 
