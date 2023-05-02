@@ -18,6 +18,7 @@ import { NgxEchartsModule } from 'ngx-echarts';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { MenucComponent } from './components/menuc/menuc.component';
 import { MenubComponent } from './components/menub/menub.component';
+import { ShopComponent } from './components/shop/shop.component';
 //Rutas del sitio web
 const appRoutes:Routes=[
   {path:'', component:MainComponent},
@@ -27,7 +28,8 @@ const appRoutes:Routes=[
   {path:'contact', component:ContactComponent},
   {path:'booking', component:BookingComponent},
   {path:'menuc', component:MenucComponent},
-  {path:'menub', component:MenubComponent}
+  {path:'menub', component:MenubComponent},
+  {path:'shop', component:ShopComponent}
 ];
 
 @NgModule({
@@ -42,7 +44,8 @@ const appRoutes:Routes=[
     BookingComponent,
     MenuComponent,
     MenucComponent,
-    MenubComponent
+    MenubComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,

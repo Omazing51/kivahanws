@@ -3,7 +3,7 @@
     padding:0;
 
     text-align: center;
-   @media screen and (max-width:690px) {
+   @media screen and (max-width:1024px) {
     .contai{
         width: 100%;
         background: white;
@@ -142,7 +142,7 @@
         // border:  1px solid yellow;
     }
 
-    @media screen and (min-width:691px) {
+    @media screen and (min-width:1025px) {
       .contai{
 
         width: 100%;

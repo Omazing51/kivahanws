@@ -4,12 +4,12 @@ display: inline;
 padding: 0;
 margin: 0;
 
-@media screen and (min-width:691px) {
+@media screen and (min-width:1025px) {
 main
 {
   // padding: 15%;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
   .tittle
   {
@@ -191,6 +191,11 @@ main
         font-size: 2.5vw;
         color: #CFAD31;
          }
+         h3
+         {
+            color: white;
+            font-size: 1.8vw;
+         }
          p{
             font-family: 'Playfair Display', serif;
             font-weight: 700;
@@ -236,6 +241,11 @@ main
         font-weight: 900;
         font-size: 2.5vw;
         color: #CFAD31;
+         }
+         h3
+         {
+            color: white;
+            font-size: 1.8vw;
          }
          p{
             font-family: 'Playfair Display', serif;
@@ -402,7 +412,7 @@ main
   }
   .shop-details .text-box textarea{
       height: 75px;
-      width: 100%;
+      width: 90%;
       font-family: 'Zilla Slab', serif;
       font-weight: 600;
       font-size: 1vw;
@@ -453,12 +463,12 @@ main
 
 
 
-@media screen and (max-width:690px) {
+@media screen and (max-width:1024px) {
     main
     {
       // padding: 15%;
-      padding-left: 0%;
-      padding-right: 0%;
+      padding-left: 5%;
+      padding-right: 5%;
     }
       .tittle
       {
@@ -623,6 +633,11 @@ main
             font-size: 6vw;
             color: #CFAD31;
              }
+             h3
+             {
+                color: white;
+                font-size: 4vw;
+             }
              p{
                 font-family: 'Playfair Display', serif;
                 font-weight: 700;
@@ -671,6 +686,11 @@ main
             font-weight: 900;
             font-size: 6vw;
             color: #CFAD31;
+             }
+             h3
+             {
+                color: white;
+                font-size: 4vw;
              }
              p{
                 font-family: 'Playfair Display', serif;
@@ -840,7 +860,7 @@ main
     display: flex;
     padding: 0;
     width: 200%;
-    animation: slide 20s infinite alternate ease-in-out;
+    animation: slide 10s infinite alternate ease-in-out;
 
 }
 

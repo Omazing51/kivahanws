@@ -21,10 +21,10 @@ export class MenuComponent {
   }
 
   abrir(){
-    window.open('https://jazzy-axolotl-03f053.netlify.app/menuc', '_blank');
+    window.open('https://effulgent-kelpie-1a9960.netlify.app/menuc', '_blank');
   }
   abrir2(){
-    window.open('https://jazzy-axolotl-03f053.netlify.app/menub', '_blank');
+    window.open('https://effulgent-kelpie-1a9960.netlify.app/menub', '_blank');
   }
 
 
