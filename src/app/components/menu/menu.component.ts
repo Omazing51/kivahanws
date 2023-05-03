@@ -24,7 +24,8 @@ export class MenuComponent {
     window.open('https://effulgent-kelpie-1a9960.netlify.app/menuc', '_blank');
   }
   abrir2(){
-    window.open('https://effulgent-kelpie-1a9960.netlify.app/menub', '_blank');
+    // window.open('https://effulgent-kelpie-1a9960.netlify.app/menub', '_blank');
+     window.open('https://effulgent-kelpie-1a9960.netlify.app/menub', '_blank');
   }
 
 
