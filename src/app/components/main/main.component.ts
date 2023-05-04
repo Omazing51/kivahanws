@@ -18,7 +18,7 @@ export class MainComponent {
       if (this.counter > 4) {
         this.counter = 1;
       }
-    }, 5000);
+    }, 15000);
   }
   }
 

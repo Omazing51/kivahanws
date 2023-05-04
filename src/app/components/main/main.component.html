@@ -3,23 +3,35 @@
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
     </style>
     <div class="slider-frame">
-    <div class="slider-frame">
+    <div class="slides-frame">
       <input type="radio" name="radio-btn" id="radio1">
       <input type="radio" name="radio-btn" id="radio2">
       <input type="radio" name="radio-btn" id="radio3">
       <input type="radio" name="radio-btn" id="radi43">
       <ul>
-          <li><img src="./assets/prueba9.png" alt="" id="sli1"/></li>
-          <li><img src="./assets/sll2.png" alt=""/></li>
-          <li><img src="./assets/sll.png" alt=""/></li>
-          <li><img src="./assets/sll4.png" alt=""/></li>
+          <li class="slide first"><img src="./assets/prueba9.png" alt="" id="radio"/></li>
+          <li class="slide"><img src="./assets/sll2.png" alt=""/></li>
+          <li class="slide"><img src="./assets/sll.png" alt=""/></li>
+          <li class="slide"><img src="./assets/sll4.png" alt=""/></li>
       </ul>
+            <div class="slider-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
       <div class="slider-manual">
         <label for="radio1" class="manual-btn"></label>
         <label for="radio2" class="manual-btn"></label>
         <label for="radio3" class="manual-btn"></label>
         <label for="radio4" class="manual-btn"></label>
       </div>
+      <!-- <div class="slider-auto">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div> -->
   </div>
   <!-- imagen slider inicio -->
   <!-- <div class="slider">
@@ -54,12 +66,12 @@
       <!-- navegación automatica fin -->
     <!-- </div> -->
     <!-- navegación manual inicio -->
-   <div class="navigation-manual">
+   <!-- <div class="navigation-manual">
     <label for="radio1" class="manual-btn"></label>
     <label for="radio2" class="manual-btn"></label>
     <label for="radio3" class="manual-btn"></label>
     <label for="radio4" class="manual-btn"></label>
-   </div>
+   </div> -->
     <!-- navegación manual fin  -->
 
   </div>
