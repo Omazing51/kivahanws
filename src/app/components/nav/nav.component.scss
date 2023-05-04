@@ -30,7 +30,7 @@
                  text-align: center;
                  align-items: center;
                  padding: 2px;
-
+                 
               }
               li{
 
@@ -56,7 +56,7 @@
 
           }
           .secondnav{
-              //  border: 1px solid green;
+            //    border: 1px solid green;
                min-height: 2px;
                display:flex;
                flex-direction: column;
@@ -70,6 +70,7 @@
                 float:left;
                 display: flex;
                 justify-content: space-between;
+
 
                 div{
                     font-family: 'Zilla Slab', serif;
@@ -91,7 +92,7 @@
                .op2{
                 display: none;
                }
-
+                
                .op{
                 // border: 1px solid blue;
                 display: none;
@@ -107,7 +108,7 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-
+                  
                     padding-right: 10%;
                     background: white;
                     width: 100%;
@@ -146,7 +147,8 @@
 
             // Responsive
             @media screen and (min-width:1024px){
-                padding: 40px;
+                max-height: 50px;
+                padding: 30px;
                 // min-height: 20px;
                 // padding-bottom: 2%;
                 display:flex;
@@ -175,14 +177,37 @@
 
                .op2{
                 width: 100%;
+           
                 display: flex;
+                flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                #list2
+                {
+                    li
+                    {
+                        .im
+                        {
+                            display: flex;
+                            float: right;
+                            // border: 1px solid red;
+                            a
+                            {
+                            
+                                img
+                                {
+                                    margin-right: 1220px;
+                                }
+                            }
+                        }
+                    }
+                }
                 ul{
                     display: flex;
                     flex-direction: row;
-                    padding: 40px;
+                    padding: 2px;
                     position: absolute;
+                    // border: 1px solid red;
                     a
                     {
                         color: white;
@@ -194,6 +219,7 @@
 
                 li{
                     padding: 12px;
+                   
                 }
 
                 a{
@@ -218,7 +244,7 @@
                  width: 100%;
                  justify-content: center;
                  background: black;
-
+           
 
 
                  &--activo{
@@ -230,11 +256,12 @@
                      display: flex;
                      flex-direction: column;
                      justify-content: center;
-
+                     
                      padding-right: 10%;
                      background: white;
                      width: 100%;
                      text-align: right;
+                     
                      a:active{
                          color: #CFAD31;
                     }
@@ -256,6 +283,7 @@
                     font-family: 'Zilla Slab', serif;
                     font-weight: 800;
                     font-size: 1vw;
+                    
                    }
 
 
