@@ -42,7 +42,7 @@ main
             h1{
               font-family: 'Zilla Slab', serif;
               font-weight: 900;
-              font-size: 2vw;
+              font-size: 3vw;
               box-sizing: border-box;
                }
                #cofi
@@ -961,54 +961,54 @@ main
  display: none;
 }
 
-.slider-manual
-{
-  position: absolute;
-  width: 100%;
-  margin-top: -50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+// .slider-manual
+// {
+//   position: absolute;
+//   width: 100%;
+//   margin-top: -50px;
+//   display: flex;
+//   justify-content: center;
+//   text-align: center;
+// }
 
-.manual-btn
-{
-  border: 1px solid white;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
+// .manual-btn
+// {
+//   border: 1px solid white;
+//   padding: 5px;
+//   border-radius: 10px;
+//   cursor: pointer;
+//   transition: 1s;
+// }
 
-.manual-btn:not(:last-child)
-{
-  margin-right: 20px;
-}
+// .manual-btn:not(:last-child)
+// {
+//   margin-right: 20px;
+// }
 
-.manual-btn:hover
-{
-   background: white;
-}
+// .manual-btn:hover
+// {
+//    background: white;
+// }
 
-#radio1:checked ~ ul li .first
-{
-  margin-left: 0%;
-}
+// #radio1:checked ~ ul li .first
+// {
+//   margin-left: 0%;
+// }
 
-#radio2:checked ~ ul li .first
-{
-  margin-left: -20%;
-}
+// #radio2:checked ~ ul li .first
+// {
+//   margin-left: -20%;
+// }
 
-#radio3:checked ~ ul li .first
-{
-  margin-left: -50%;
-}
+// #radio3:checked ~ ul li .first
+// {
+//   margin-left: -50%;
+// }
 
-#radio4:checked ~ ul li .first
-{
-  margin-left: -100%;
-}
+// #radio4:checked ~ ul li .first
+// {
+//   margin-left: -100%;
+// }
 
 
 
@@ -1055,7 +1055,7 @@ main
 .slides
 {
   width: 400%;
-  height: 750px;
+  height: calc(100vh - 180px);
   display: flex;
 }
 
@@ -1074,23 +1074,27 @@ main
 .slide img
 {
   width: 100%;
-  height: 750px;
+  height: 590px;
+  // height: calc(100vh - 180px);
 }
 
 
 //NAVEGACIÓN MANUAL
 .navigation-manual
-{
+{ 
+  //  border: 4px solid pink;
    position: absolute;
-   width: 100%;
-   margin-top: -1%;
+   width: 98%;
+   margin-top: -1.6%;
    display: flex;
    justify-content: center;
 }
 
 .manual-btn
 {
-    border: 2px solid white;
+    // border: 2px solid white;
+    background: white;
+    opacity: 20%;
     padding: 5px;
     cursor: pointer;
     border-radius: 10px;
@@ -1099,48 +1103,55 @@ main
 
 .manual-btn:not(:last-child)
 {
- margin-right: 30px;
+ margin-right: 20px;
 }
 
 .manual-btn:hover
 {
   background: white;
+  opacity: 100%;
 }
-
 #radio1:checked ~ .first
 {
-  margin-left: 0;
+   margin-left: 0%;
+   margin-left: 0%;
 }
 
 #radio2:checked ~ .first
 {
+  margin-left: -15%;
   margin-left: -35%;
-}
 
+}
 #radio3:checked ~ .first
 {
-  margin-left: -85%;
+    margin-left: -40%;
+    margin-left: -85%;
 }
 
 #radio4:checked ~ .first
 {
-  margin-left: -135%;
+  margin-left: -100%;
+  margin-left: -125%;
 }
 
 
 // NAVEGACIÓN AUTOMATICA
 .navigation-auto
 {
+  // border: 4px solid greenyellow;
   position: absolute;
   display: flex;
-  width: 100%;
+  width: 98%;
   justify-content: center;
-  margin-top: 724px;
+  margin-top: 446px;
 }
 
 .navigation-auto div
 {
-   border: 2px solid white;
+  //  border: .5px solid red;
+  // background: white;
+   opacity: 100%;
    padding: 5px;
    border-radius: 10px;
    transition: 1s;
@@ -1148,7 +1159,7 @@ main
 
 .navigation-auto div:not(:last-child)
 {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1
