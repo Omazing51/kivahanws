@@ -240,7 +240,7 @@ main
         h1{
             font-family: 'Zilla Slab', serif;
             font-weight: 900;
-            font-size: 2.8vw;
+            font-size: 2vw;
              }
 
              p{
@@ -249,15 +249,15 @@ main
                 font-size: 1.8vw;
              }
 
-            //  img
-            //  {
-            //   max-width: 100%;
-            //   top: 0;
-            //   left: 0;
-            //   width: 30%;
-            //   height: 30%;
-            //   object-fit: cover;
-            //  }
+             img
+             {
+              max-width: 100%;
+              top: 0;
+              left: 0;
+              width: 30%;
+              height: 30%;
+              object-fit: cover;
+             }
 
              .all{
                 display: flex;
@@ -961,14 +961,56 @@ main
  display: none;
 }
 
+.slider-manual
+{
+  position: absolute;
+  width: 100%;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .manual-btn
 {
-  border: 1px solid yellow;
+  border: 1px solid white;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
 }
+
+.manual-btn:not(:last-child)
+{
+  margin-right: 20px;
+}
+
+.manual-btn:hover
+{
+   background: white;
+}
+
+#radio1:checked ~ ul li .first
+{
+  margin-left: 0%;
+}
+
+#radio2:checked ~ ul li .first
+{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ ul li .first
+{
+  margin-left: -50%;
+}
+
+#radio4:checked ~ ul li .first
+{
+  margin-left: -100%;
+}
+
+
 
 .slider-frame ul{
     display: flex;
