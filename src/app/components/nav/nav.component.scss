@@ -70,7 +70,7 @@
                display:flex;
                flex-direction: row;
                background: black;
-               justify-content: space-between;
+            //    justify-content: space-between;
               //  padding-bottom: -50%;
                .icon{
                 // border: 1px solid red;
@@ -79,7 +79,7 @@
                 width: 100%;
                 float:left;
                 display: flex;
-                justify-content: space-between;
+                // justify-content: space-between;
 
 
                 div{
@@ -475,7 +475,7 @@
              width: 100%;
              float:left;
              display: none;
-             justify-content: space-between;
+            //  justify-content: space-between;
 
              div{
                  font-family: 'Zilla Slab', serif;
@@ -491,52 +491,92 @@
 
            .op2{
             // border: 1px solid red;
-            width: 100%;
+            // width: 100%;
             display: flex;
             flex-direction: row;
 
             justify-content: center;
-            height: 30px;
+            height: 20px;
             align-items: center;
             text-align: center;
-            justify-content: center;
-            #list {
-              text-align: center;
-              display: flex;
-              flex-direction: row;
-              justify-content: center;
-              max-width: 100%;
-              // position: relative;
-              // top: 0;
-              // left: 0;
-            }
+            // #list {
+            //   text-align: center;
+            //   display: flex;
+            //   flex-direction: row;
+            //   justify-content: center;
+            //   max-width: 100%;
+            //   // position: relative;
+            //   // top: 0;
+            //   // left: 0;
+            // }
 
-            #list li:first-child {
-              align-items: center;
-              position: absolute;
-              top: 0;
-              left: 0;
-            }
-            ul{
-              // height: 0px;
-                // border: 1px solid red;
+            // #list li:first-child {
+            //   align-items: center;
+            //   position: absolute;
+            //   top: 0;
+            //   left: 0;
+            // }
+            // ul{
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: center;
+            //     position: relative;
+            //     list-style: none;
+            //     padding: 0;
+            //     .log
+            //     {
+            //         border: 1px solid red;
+            //         position: relative;
+            //     }
+            //     .log:first-child
+            //     {
+            //         margin-right: auto;
+            //     }
+            //     .opp
+            //     {
+            //         border: 1px solid blue;
+            //     }
+            // }
+            #list {
                 display: flex;
                 justify-content: space-between;
-                align-items: center;
-                text-align: center;
+                padding: 0;
                 list-style: none;
-                margin: 0;
-                flex-direction: row;
-                padding: 40px;
-                position: absolute;
-            }
-
-
-
+              }
+              
+              .log {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                padding: 0 1rem;
+              }
+              
+              .logo img {
+                height: 100%;
+              }
+              
+              #list li:first-child {
+                margin-right: auto;
+              }
+              
+              #list li {
+                text-align: center;
+              }
+              
+              #list li:not(:first-child):not(:last-child) {
+                flex-grow: 0;
+                margin: 0 0.005rem;
+              }
+              
+              #list li:last-child {
+                margin-left: auto;
+              }
             li{
                 padding: 12px;
-                float: left;
                 align-items: center;
+                text-align: center;
+                justify-content: center;
+                
             }
             a{
                 font-family: 'Zilla Slab', serif;
@@ -583,20 +623,13 @@
               }
             }
 
-            .op2{
-
-            }
-
             a{
              text-decoration: none;
              color: black;
              font-family: 'Zilla Slab', serif;
              font-weight: 900;
             }
-
-
           li{
-
              text-decoration: none;
              list-style: none;
              color: white;
@@ -605,7 +638,6 @@
              font-size: 15px;
              margin: 5px;
          }
-
         }
        }
 
