@@ -23,13 +23,14 @@ export class ContactComponent {
     enviocorreo(){
       let params = { 
        email: this.datos.value.email,
-       subject: 'Request for' +''+ this.datos.value.name,
-       mes: this.datos.value.mes +''+ 'Cell phone number:' + this.datos.value.number 
+       subject: 'Request for' +' '+ this.datos.value.name,
+       mes: this.datos.value.mes +' '+ 'Mobile phone number:' + this.datos.value.number 
 
       }
       this.httpclien.post('http://localhost:8080/envio', params).subscribe(resp=>{
         console.log(resp);
       })
+      window.location.reload();
       console.log(params);
     }
 }
