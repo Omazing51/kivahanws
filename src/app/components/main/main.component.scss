@@ -966,16 +966,16 @@ main
   justify-content: center;
 }
 
-.manual-btn
-{
-  // border: 1px solid white;
-  background: white;
-  opacity: 20%;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
+// .manual-btn
+// {
+//   // border: 1px solid white;
+//   background: white;
+//   opacity: 20%;
+//   padding: 5px;
+//   border-radius: 10px;
+//   cursor: pointer;
+//   transition: 1s;
+// }
 
 .manual-btn:not(:last-child)
 {
@@ -1037,20 +1037,20 @@ main
   margin-top: -40px;
 }
 
-.slider-auto div
-{
-  //  border: .5px solid red;
-  // background: white;
-   opacity: 100%;
-   padding: 5px;
-   border-radius: 10px;
-   transition: 5ms;
-}
+// .slider-auto div
+// {
+//   //  border: .5px solid red;
+//   // background: white;
+//    opacity: 100%;
+//    padding: 5px;
+//    border-radius: 10px;
+//    transition: 5ms;
+// }
 
-.slider-auto div:not(:last-child)
-{
-  margin-right: 22px;
-}
+// .slider-auto div:not(:last-child)
+// {
+//   margin-right: 22px;
+// }
 
 #radio1:checked ~ .slider-auto .auto-btn1
 {

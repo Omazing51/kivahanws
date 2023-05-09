@@ -4,7 +4,7 @@
         <li><img src="./assets/ss1.png" alt="" /></li>
         <li><img src="./assets/ss2.png" alt=""/></li>
         <li><img src="./assets/ss3.png" alt=""/></li>
-        <li><img src="./assets/ss4.png" alt=""/></li>
+        <li><img src="./assets/ss5.png" alt=""/></li>
     </ul>
 </div>
    <main>
@@ -188,51 +188,242 @@
           <div class="contai">
           <div class="tittle"><h1>SHOP NOW</h1></div>
           <img src="./assets/LINECOFF.svg" id="cofi" width="25%"/>
-          <form action="#">
+          <form  [formGroup]="datos">
            <div class="shop-details">
            <div class="input-box">
               <span class="details">Full Name</span>
-              <input type="text" placeholder="Enter your name..."/>
+              <input type="text" placeholder="Enter your name..." formControlName="name"/>
            </div>
            <div class="input-box">
               <span class="details">Email</span>
-              <input type="text" placeholder="Enter your email..."/>
+              <input type="text" placeholder="Enter your email..." formControlName="email"/>
            </div>
            <div class="input-box">
               <span class="details">Company</span>
-              <input type="text" placeholder="Enter your company..."/>
+              <input type="text" placeholder="Enter your company..." formControlName="company"/>
            </div>
            <div class="input-box">
               <span class="details">Address</span>
-              <input type="text" placeholder="Enter your address..."/>
+              <input type="text" placeholder="Enter your address..." formControlName="address"/>
            </div>
            <div class="input-box">
               <span class="details">City</span>
-              <input type="text" placeholder="Enter your city..."/>
+              <input type="text" placeholder="Enter your city..."formControlName="city"/>
            </div>
            <div class="select-box">
               <span class="details">Country</span>
-              <select name="" id="" class="cooptions">
+              <select name="" id="miselect" class="cooptions" formControlName="country">
                   <option>Choose an country</option>
+                  <option>Afganistán</option>
+                  <option>Albania</option>
+                  <option>Alemania</option>
+                  <option>Andorra</option>
+                  <option>Angola</option>
+                  <option>Antigua y Barbuda</option>
+                  <option>Arabia Saudita</option>
+                  <option>Argelia</option>
+                  <option>Argentina</option>
+                  <option>Armenia</option>
                   <option>Australia</option>
+                  <option>Austria</option>
+                  <option>Azerbaiyán</option>
+                  <option>Bahamas</option>
+                  <option>Bangladés</option>
+                  <option>Barbados</option>
+                  <option>Baréin</option>
+                  <option>Bélgica</option>
+                  <option>Belice</option>
+                  <option>Benín</option>
+                  <option>Bielorrusia</option>
+                  <option>Birmania</option>
+                  <option>Bolivia</option>
+                  <option>Bosnia y Herzegovina</option>
+                  <option>Botsuana</option>
+                  <option>Brasil</option>
+                  <option>Brunéi</option>
+                  <option>Bulgaria</option>
+                  <option>Burkina Faso</option>
+                  <option>Burundi</option>
+                  <option>Bután</option>
+                  <option>Cabo Verde</option>
+                  <option>Camboya</option>
+                  <option>Camerún</option>
+                  <option>Canadá</option>
+                  <option>Catar</option>
+                  <option>Chad</option>
+                  <option>Chile</option>
+                  <option>China</option>
+                  <option>Chipre</option>
                   <option>Colombia</option>
+                  <option>Comoras</option>
+                  <option>Corea del Norte</option>
+                  <option>Corea del Sur</option>
+                  <option>Costa de Marfil</option>
+                  <option>Costa Rica</option>
+                  <option>Croacia</option>
+                  <option>Cuba</option>
+                  <option>Dinamarca</option>
+                  <option>Dominica</option>
+                  <option>Ecuador</option>
+                  <option>Egipto</option>
+                  <option>El Salvador</option>
+                  <option>Emiratos Árabes Unidos</option>
+                  <option>Eritrea</option>
+                  <option>Eslovaquia</option>
+                  <option>Eslovenia</option>
+                  <option>España</option>
+                  <option>Estados Unidos</option>
+                  <option>Estonia</option>
+                  <option>Etiopía</option>
+                  <option>Filipinas</option>
+                  <option>Finlandia</option>
+                  <option>Fiyi</option>
+                  <option>Francia</option>
+                  <option>Gabón</option>
+                  <option>Gambia</option>
+                  <option>Georgia</option>
+                  <option>Ghana</option>
+                  <option>Granada</option>
+                  <option>Grecia</option>
+                  <option>Guatemala</option>
+                  <option>Guinea</option>
+                  <option>Guinea-Bisáu</option>
+                  <option>Guinea Ecuatorial</option>
+                  <option>Guyana</option>
+                  <option>Haití</option>
+                  <option>Honduras</option>
+                  <option>Hungría</option>
+                  <option>India</option>
+                  <option>Indonesia</option>
+                  <option>Irak</option>
+                  <option>Irán</option>
+                  <option>Irlanda</option>
+                  <option>Islandia</option>
+                  <option>Israel</option>
+                  <option>Italia</option>
+                  <option>Jamaica</option>
+                  <option>Japón</option>
+                  <option>Jordania</option>
+                  <option>Kazajistán</option>
+                  <option>Kenia</option>
+                  <option>Kirguistán</option>
+                  <option>Kiribati</option>
+                  <option>Kuwait</option>
+                  <option>Laos</option>
+                  <option>Lesoto</option>
+                  <option>Letonia</option>
+                  <option>Líbano</option>
+<option>Liberia</option>
+<option>Libia</option>
+<option>Liechtenstein</option>
+<option>Lituania</option>
+<option>Luxemburgo</option>
+<option>Macedonia del Norte</option>
+<option>Madagascar</option>
+<option>Malasia</option>
+<option>Malawi</option>
+<option>Maldivas</option>
+<option>Malí</option>
+<option>Malta</option>
+<option>Marruecos</option>
+<option>Islas Marshall</option>
+<option>Mauricio</option>
+<option>Mauritania</option>
+<option>México</option>
+<option>Micronesia</option>
+<option>Moldavia</option>
+<option>Mónaco</option>
+<option>Mongolia</option>
+<option>Montenegro</option>
+<option>Mozambique</option>
+<option>Namibia</option>
+<option>Nauru</option>
+<option>Nepal</option>
+<option>Nicaragua</option>
+<option>Níger</option>
+<option>Nigeria</option>
+<option>Noruega</option>
+<option>Nueva Zelanda</option>
+<option>Omán</option>
+<option>Países Bajos</option>
+<option>Pakistán</option>
+<option>Palaos</option>
+<option>Panamá</option>
+<option>Papúa Nueva Guinea</option>
+<option>Paraguay</option>
+<option>Perú</option>
+<option>Polonia</option>
+<option>Portugal</option>
+<option>Reino Unido</option>
+<option>República Centroafricana</option>
+<option>República Checa</option>
+<option>República del Congo</option>
+<option>República Democrática del Congo</option>
+<option>República Dominicana</option>
+<option>República Sudafricana</option>
+<option>Ruanda</option>
+<option>Rumania</option>
+<option>Rusia</option>
+<option>Islas Salomón</option>
+<option>Samoa</option>
+<option>San Cristóbal y Nieves</option>
+<option>San Marino</option>
+<option>San Vicente y las Granadinas</option>
+<option>Santa Lucía</option>
+<option>Santo Tomé y Príncipe</option>
+<option>Senegal</option>
+<option>Serbia</option>
+<option>Seychelles</option>
+<option>Sierra Leona</option>
+<option>Singapur</option>
+<option>Siria</option>
+<option>Somalia</option>
+<option>Sri Lanka</option>
+<option>Suazilandia</option>
+<option>Sudán</option>
+<option>Sudán del Sur</option>
+<option>Suecia</option>
+<option>Suiza</option>
+<option>Surinam</option>
+<option>Tailandia</option>
+<option>Tanzania</option>
+<option>Tayikistán</option>
+<option>Timor Oriental</option>
+<option>Togo</option>
+<option>Tonga</option>
+<option>Trinidad y Tobago</option>
+<option>Túnez</option>
+<option>Turkmenistán</option>
+<option>Turquía</option>
+<option>Tuvalu</option>
+<option>Ucrania</option>
+<option>Uganda</option>
+<option>Uruguay</option>
+<option>Uzbekistán</option>
+<option>Vanuatu</option>
+<option>Venezuela</option>
+<option>Vietnam</option>
+<option>Yemen</option>
+<option>Yibuti</option>
+<option>Zambia</option>
+<option>Zimbabue</option>
                  </select>
            </div>
            <div class="input-box">
               <span class="details">Postal / Zip Code</span>
-              <input type="text" placeholder="Enter your PC/ZC..."/>
+              <input type="text" placeholder="Enter your PC/ZC..." formControlName="pcode"/>
            </div>
            <div class="input-box">
               <span class="details">Work Phone Number</span>
-              <input type="text" placeholder="Enter your number..."/>
+              <input type="text" placeholder="Enter your number..." formControlName="wpn"/>
            </div>
            <div class="input-box">
               <span class="details">Mobile Phone Number</span>
-              <input type="text" placeholder="Enter your number..."/>
+              <input type="text" placeholder="Enter your number..." formControlName="mpn"/>
            </div>
            <div class="select-box">
              <span class="details">New or Existing Business</span>
-             <select name="" id="" class="neoptions">
+             <select name="" id="" class="neoptions" formControlName="noeb">
               <option>Choose an option</option>
               <option>Existing Business</option>
               <option>New Business</option>
@@ -241,16 +432,15 @@
            </div>
            <div class="input-box">
               <span class="details">If existing business, who is your current coffee roaster?</span>
-              <input type="text" placeholder="Enter your answer..."/>
+              <input type="text" placeholder="Enter your answer..." formControlName="ieb"/>
            </div>
            <div class="select-box">
               <span class="details">Business Type</span>
-              <select name="" id="" class="neoptions">
+              <select name="" id="" class="neoptions" formControlName="bt">
                <option>Choose an option</option>
                <option>Coffee</option>
                <option>Restaurant</option>
                <option>Hotel/Resort</option>
-               <option>Cooffe</option>
                <option>College/University</option>
                <option>Office</option>
                <option>Other</option>
@@ -259,7 +449,7 @@
             <div class="select-box">
               <span class="details">Estimated or Current Pounds per Week
               </span>
-              <select name="" id="" class="neoptions">
+              <select name="" id="" class="neoptions" formControlName="eoc">
                <option>Choose an option</option>
                <option>1-24</option>
                <option>25-49</option>
@@ -269,11 +459,11 @@
             </div>
             <div class="text-box">
               <span class="details">Tell us about your ideal coffee profile:</span>
-              <textarea type="text" placeholder="Enter your answer..."></textarea>
+              <textarea type="text" placeholder="Enter your answer..." formControlName="tua"></textarea>
             </div>
            </div>
            <div class="but">
-              <input type="submit" value="SEND"/>
+              <input type="submit" (click)="enviocorreo()" value="SEND"/>
            </div>
           </form>
           </div>

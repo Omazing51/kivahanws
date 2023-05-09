@@ -31,8 +31,8 @@
                 <label for=""><a href="/mainws">Email: info@kivahan.com.au</a></label>
                 <br>
                 <div class="img">
-                    <img src="../../../assets/ii2.svg" alt="">
-                    <img src="../../../assets/f2.svg" alt="">
+                    <a href="" (click)="abrirface()"><img src="../../../assets/ii2.svg" alt=""></a>
+                    <a href="" (click)="abririnsta()"><img src="../../../assets/f2.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,9 @@
             <p>Sign up below and don`t miss out
                 <br>
                 any of our high-quality products and specials</p>
-             <input type="text" placeholder="Write your email...">
+            <form [formGroup]="datos">
+             <input type="email" (keydown.enter)="enviocorreo()" placeholder="Write your email..." formControlName="emailn">
+            </form>
             </div>
         </div>
     </div>

@@ -22,9 +22,9 @@ export class ContactComponent {
 
     enviocorreo(){
       let params = { 
-       email: this.datos.value.email,
+       email: "info@kivahan.com.au",
        subject: 'Request for' +' '+ this.datos.value.name,
-       mes: this.datos.value.mes +' '+ 'Mobile phone number:' + this.datos.value.number 
+       mes: this.datos.value.mes +' '+ '\nMobile phone number:' + this.datos.value.number + '\nEmail:' + this.datos.value.email 
 
       }
       this.httpclien.post('http://localhost:8080/envio', params).subscribe(resp=>{
