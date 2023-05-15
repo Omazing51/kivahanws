@@ -21,11 +21,11 @@ export class MenuComponent {
   }
 
   abrir(){
-    window.open('https://effulgent-kelpie-1a9960.netlify.app/menuc', '_blank');
+    window.open('https://kwws.netlify.app/menuc', '_blank');
   }
   abrir2(){
     // window.open('https://effulgent-kelpie-1a9960.netlify.app/menub', '_blank');
-     window.open('https://effulgent-kelpie-1a9960.netlify.app/menub', '_blank');
+     window.open('https://kwws.netlify.app/menub', '_blank');
   }
 
 
